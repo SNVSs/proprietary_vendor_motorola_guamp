@@ -193,9 +193,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamp/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/guamp/proprietary/vendor/firmware/AbovCapSense.BIN:$(TARGET_COPY_OUT_VENDOR)/firmware/AbovCapSense.BIN \
     vendor/motorola/guamp/proprietary/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ICNL9911.bin \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ICNL9911.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/ILITEK_FW_HLT.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_HLT.hex \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/ILITEK_FW_HLT.hex:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW_HLT.hex \
     vendor/motorola/guamp/proprietary/vendor/firmware/ILITEK_FW_TM.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TM.hex \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/ILITEK_FW_TM.hex:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW_TM.hex \
     vendor/motorola/guamp/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_6020.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_6020.csv \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6020.csv:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6020.csv \
     vendor/motorola/guamp/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/motorola/guamp/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
@@ -203,10 +207,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamp/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/hlt_Himax_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hlt_Himax_firmware.bin \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/hlt_Himax_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/hlt_Himax_firmware.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/hlt_Himax_mpfw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hlt_Himax_mpfw.bin \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/hlt_Himax_mpfw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/hlt_Himax_mpfw.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/hlt_hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/hlt_hx_criteria.csv \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/hlt_hx_criteria.csv:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/hlt_hx_criteria.csv \
     vendor/motorola/guamp/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
+    vendor/motorola/guamp/proprietary/recovery/root/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp.bin \
     vendor/motorola/guamp/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/guamp/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/guamp/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
